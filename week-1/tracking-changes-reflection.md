@@ -9,7 +9,7 @@ What are the best practices for commit messages?
 It should be a short and accurate message of what changes have been made but still includes enough detail that anyone can understand what was done.
 
 What does the HEAD^ argument mean?
-HEAD refers to the commit that is currently being worked on, the ^ can be replaced with a different number to refer to a prior commit.
+HEAD^ refers to the commit that is currently being worked on, the ^ can be replaced with a different number to refer to a prior commit.
 
 What are the 3 stages of a git change and how do you move a file from one stage to the other?
 The 3 phases are Tracking Changes, Making Changes and Pushing Changes.
