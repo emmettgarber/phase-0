@@ -39,8 +39,7 @@ less- view a file in separate viewer
 
 rmdir- remove a directory from your current directory
 
-rm- remove a file from your current directory
-
+rm- remove a file from your current directo
 1.4 Forking and Cloning
 
 To create a new repository, first log into ones Github account, then look to the top right where there will be a “+” icon, 
