@@ -14,9 +14,11 @@ HEAD^ refers to the commit that is currently being worked on, the ^ can be repla
 What are the 3 stages of a git change and how do you move a file from one stage to the other?
 The 3 phases are Tracking Changes, Making Changes and Pushing Changes.
 Tracking Changes - Any time you make a change to a file the changes will be tracked.  These can be observed by using git status.
+
 Making changes - You can use git add to add any changes that you want to make.  You will need to create a new branch for this. Use git commit to save the version of the code/project
 you want to save and -m to include a message of what changes have been made, this message should be short and accurate. If you want to change some of the 
 commits that you made you can use git reset and the HEAD^ argument to adjust your commits.
+
 Pushing Changes - This is the process of moving the changes you have made to the master on Github.  First make sure you do not have different versions 
 locally and remotely, use "git checkout master" and "git pull origin" to verify this.Then you need to merge the changes using "git checkout "branchname""
 and "git merge master".  Then the changes need to be pushed back to the remote depository on Github, using "git push origin "branchname"".  Once this has
