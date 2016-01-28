@@ -28,4 +28,4 @@ and need to be satisfied while using it, by making clear to navigate, high utili
 Which parts of the challenge did you find tedious?
 I thought the videos could have been tightened up and shortened a little, but I personally like brevity.
 
-![site-map](/img/site-map.png)
+![site-map](/week2/img/site-map.png)
