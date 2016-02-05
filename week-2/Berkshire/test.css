@@ -1,0 +1,79 @@
+*{
+  background-color: #ffffff;
+  color: #000080;
+}
+
+a:link {
+  color: #800080;
+}
+a:visited {
+  color: #ff0000;
+}
+#left {
+  float: left;
+  width: 50%;
+  margin-top: -20px;
+}
+#right {
+  float: right;
+  width: 50%;
+  margin-top: -20px;
+}
+div ul li span {
+  font-size: 10px;
+  }
+h1 {
+  font-weight: bold;
+  text-align: center;
+  border-bottom: thin solid #828584;
+  padding-bottom: 14px;
+}
+#company {
+  font-size: 20px;
+}
+#company span {
+  font-size: 35px;
+}
+#address {
+  font-size: 15px;
+}
+#homepage {
+  font-size: 20px;
+}
+#geico1 {
+  text-align: center;
+  font-size: 10px;
+}
+#geico2 {
+  text-align: center;
+  font-size: 10px;
+}
+#disclaimer {
+  font-size: 10px;
+  border-bottom: thin solid #828584;
+  border-top:thin solid #828584;
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+#copyright {
+  font-size: 8px;
+}
+#copyright span {
+  font-weight: bold;
+}
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#geicoad {
+  border-top: thin solid #828584;
+  display: block;
+  position: relative;
+  margin-top: 360px;
+}
+#geicoad img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
