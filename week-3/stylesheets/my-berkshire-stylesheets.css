@@ -78,3 +78,20 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+/* What is important to know when linking an external file (like a stylesheet) to an HTML file?
+You need to know the file path and verify that you are syncing correctly.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+I was able to use float, margins and padding to get the correct positioning.  Along with text aligns.  It definitly was a challenge getting everything 
+to work on my first time trying to do this.  There was a lot of trial and error but I think it helped me to learn a lot.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+I used ID, color, parent-child relationships, borders, font-size, font-weight, and background color
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+I used IDs to modify specific eleemtnts, as it allowed us to specify what we wanted to change.  I think if I  had thought about some elements a little 
+more I could have added classes and it would have been helpful but it was a learning experience on planning.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+WHile they did a lot of HTML stylingm which is not best practice, they were able to keep their code cleaner.  I think if I had planned better I could 
+have made things smoother with more classes and some more standardization in my positioning.*/
