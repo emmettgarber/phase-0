@@ -78,3 +78,23 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+Need to know the exact file path of the file or there can be issues if things are not properly linked.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+It was important to have every element in proper sections and to use ID's and classes to be able to properly move and format the elements.  There was
+definitely a lot of trial and error in getting everything where we wanted it, and it did require a large amount of effort.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+I used font-weight, color, background color, visited and link.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+I added IDs to several elements to help move and style elements appropriatly.  This allowed me to move or add specific elements to just the areas I wanted to.
+Looking back now with some more planning, adding some classes may have made things easier and more effective but I was able to use the all element 
+function (*) to get a lot of that done.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+While our code relied less on HTML styling which is a better practice, the way they organized the sections of their bodies was much more straight
+forward, and using a table to organize the links was probably much more effective.  In the end we probably created to many IDs that each needed 
+their own seperate CSS commands.*/
