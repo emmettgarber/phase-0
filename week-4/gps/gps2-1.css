@@ -1,3 +1,7 @@
+*{
+  font-family: Verdana;
+  background-color: #A8D6E6;
+}
 header{
   width: 100%;
   height: 8em;
@@ -31,4 +35,10 @@ footer{
   clear: both;
   margin-top: 2em;
   border-top: 1px solid black;
+}
+h2{
+  color: #4E195C;
+}
+h1{
+  color: #4E195C;
 }
