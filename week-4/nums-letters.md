@@ -1,3 +1,8 @@
+[simple string](https://github.com/emmettgarber/phase-0/blob/master/week-4/simple-string.rb)
+[basic math](https://github.com/emmettgarber/phase-0/blob/master/week-4/basic-math.rb)
+[defining variables](https://github.com/emmettgarber/phase-0/blob/master/week-4/defining-variables.rb)
+
+
 What does puts do?
 Returns what you write in your ruby onto the screen
 
