@@ -1,3 +1,4 @@
-puts 365*24
-puts ((365*10)+2)*(24*60)
-#This assumes just 2 leap years
+num1 = 15
+num2 = 7
+quotient = Float(num1) / num2
+puts quotient
