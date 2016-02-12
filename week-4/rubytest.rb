@@ -1,9 +1,8 @@
-def factorial(n)
-    if n == 0
-        return 1
-    else 
-        return n * factorial(n-1)
-    end
+def method(n)
+    n.sort!
+    puts n(0)
 end
+
+method(3, 7, 2, 15)
     
-puts factorial(5)    
+    
