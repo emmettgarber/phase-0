@@ -1,4 +1,9 @@
-num1 = 15
-num2 = 7
-quotient = Float(num1) / num2
-puts quotient
+def factorial(number)
+  if number == 0 
+    return 1
+ else 
+   number*factorial(number-1)
+  end
+end
+
+p factorial(0)
