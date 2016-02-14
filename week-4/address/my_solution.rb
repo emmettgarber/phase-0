@@ -6,7 +6,7 @@
 # Your Solution Below
 def make_address(street, city, state, zip)
   output_string = "You live at #{street}, in the beautiful city of #{city}, #{state}. Your zip is #{zip}."
-  puts output_string
+  return output_string
   
 end
 
