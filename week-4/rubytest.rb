@@ -1,9 +1,18 @@
-def method(a)
-  if a % 4 == 0
-    puts true
+def pad!(array, min_size, value = nil) #destructive
+  if array.count >= min_size
+    return array
   else
-    puts false
+    (min_size - array.count).times do
+      array << value
+    end
+    return array
   end
 end
 
-method(1956)
+def pad(array, min_size, value = nil) #non-destructive
+  new_array = Array.new(array)
+    (min_size - array.count).times do
+      new_array << value
+  end
+  return new_array
+end
