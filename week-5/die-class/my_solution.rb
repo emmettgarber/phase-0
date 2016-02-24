@@ -19,7 +19,7 @@
 
 class Die
   def initialize(sides)
-    unless sides > 1
+    unless sides >= 1
       raise ArgumentError.new("Must be an integer larger than one")
     end
     @sides = sides
