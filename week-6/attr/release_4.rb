@@ -22,32 +22,6 @@ class Profile
     puts
   end
 
-  # This code is no longer needed.
-  # def what_is_age
-  #   @age
-  # end
-
-  # This code is no longer needed
-  # def change_my_age=(new_age)
-  #   @age = new_age
-  # end
-
-  # def what_is_name
-  #   @name
-  # end
-
-  # def change_my_name=(new_name)
-  #   @name = new_name
-  # end
-
-  # def what_is_occupation
-  #   @occupation
-  # end
-
-  # def change_my_occupation=(new_occupation)
-  #   @occupation = new_occupation
-  # end
-
 
 end
 
