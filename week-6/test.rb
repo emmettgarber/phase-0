@@ -1,4 +1,8 @@
-nested_array = [1, ["inner", "array"], 2, 3]
+def cc(number)
+  array = (number.to_s).split
 
-nested_array.each { |element| element += 5}
+  p array  
+end
+
+cc(1234523648971212)
 
