@@ -62,3 +62,17 @@ function Albert(trait) {
 }
 intro()
 // Start Game
+
+
+
+
+
+// Reflection
+// What was the most difficult part of this challenge?
+// I think just coming up with a concept of how to interact with the user
+// What did you learn about creating objects and functions that interact with one another?
+// There are lots of things you can do with objects, whether it is creating or calling on them.  You definitely need to be careful with your flow control and how you access the values if they are being manipulated
+// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+// I learned about ceil and went back over random in this challenge.
+// How can you access and manipulate properties of objects?
+// You can use object. or object[] to access and manipulate properties. I used the bracket method in this challenge
