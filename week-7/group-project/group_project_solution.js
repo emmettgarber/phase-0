@@ -76,5 +76,6 @@ function median(array) {
   }
 };
 
-
+// Notes on tests
+// All of the tests passed.  No errors were encountered.
 
