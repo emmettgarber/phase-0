@@ -20,8 +20,6 @@ function sum(array) {
   return counter;
 };
 
-// Driver code
-console.log(sum([1, 2, 3]))
 
 // USER STORY
 // As a user I want a program called "mean", that will take the average of all of the numbers from a set of numbers.
@@ -46,8 +44,7 @@ function mean (array) {
   return counter / array.length;
 }
 
-// Driver code
-console.log(mean([1, 2, 3, 4]))
+
 
 
 // USER STORY
@@ -79,6 +76,5 @@ function median(array) {
   }
 };
 
-// Driver Code:
-console.log(median([10, 20, 30, 40, 50, 60, 70]))
+
 
