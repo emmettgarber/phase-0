@@ -1,7 +1,7 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
-// This challenge took me [#] hours.
+// I worked on this challenge with: Mike Verthain
+// This challenge took me [1.5] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -76,65 +76,65 @@ var officers = {
 // __________________________________________
 // Initial Solution
 
-// for(var key in votes) {
-// var prez = votes[key].president 
-//   if ( voteCount["president"][prez] >= 1 ) {
-//     voteCount["president"][prez] += 1; }
-//   else {
-//       voteCount["president"][prez] = 1; }
-// } 
-// for(var key in votes) {
-// var viceprez = votes[key].vicePresident
-//   if ( voteCount["vicePresident"][viceprez] >= 1 ) {
-//     voteCount["vicePresident"][viceprez] += 1; }
-//   else {
-//       voteCount["vicePresident"][viceprez] = 1; }
-// }
+for(var key in votes) {
+var prez = votes[key].president 
+  if ( voteCount["president"][prez] >= 1 ) {
+    voteCount["president"][prez] += 1; }
+  else {
+      voteCount["president"][prez] = 1; }
+} 
+for(var key in votes) {
+var viceprez = votes[key].vicePresident
+  if ( voteCount["vicePresident"][viceprez] >= 1 ) {
+    voteCount["vicePresident"][viceprez] += 1; }
+  else {
+      voteCount["vicePresident"][viceprez] = 1; }
+}
 
-// for(var key in votes) {
-// var secr = votes[key].secretary 
-//   if ( voteCount["secretary"][secr] >= 1 ) {
-//     voteCount["secretary"][secr] += 1; }
-//   else {
-//       voteCount["secretary"][secr] = 1; }
-// }
-// for(var key in votes) {
-//   var tres = votes[key].treasurer 
-//     if ( voteCount["treasurer"][tres] >= 1 ) {
-//       voteCount["treasurer"][tres] += 1; }
-//     else {
-//       voteCount["treasurer"][tres] = 1; }
-// }
+for(var key in votes) {
+var secr = votes[key].secretary 
+  if ( voteCount["secretary"][secr] >= 1 ) {
+    voteCount["secretary"][secr] += 1; }
+  else {
+      voteCount["secretary"][secr] = 1; }
+}
+for(var key in votes) {
+  var tres = votes[key].treasurer 
+    if ( voteCount["treasurer"][tres] >= 1 ) {
+      voteCount["treasurer"][tres] += 1; }
+    else {
+      voteCount["treasurer"][tres] = 1; }
+}
 
-// var prezCounter = Object.keys(voteCount["president"]).map( function (key) {return voteCount["president"][key];});
-// var prezmax = Math.max(...prezCounter)
-// var vpCounter = Object.keys(voteCount["vicePresident"]).map( function (key) {return voteCount["vicePresident"][key];});
-// var vpmax = Math.max(...vpCounter)
-// var secCounter = Object.keys(voteCount["secretary"]).map( function (key) {return voteCount["secretary"][key];});
-// var secmax = Math.max(...secCounter)
-// var tresCounter = Object.keys(voteCount["treasurer"]).map( function (key) {return voteCount["treasurer"][key];});
-// var tresmax = Math.max(...tresCounter)
+var prezCounter = Object.keys(voteCount["president"]).map( function (key) {return voteCount["president"][key];});
+var prezmax = Math.max(...prezCounter)
+var vpCounter = Object.keys(voteCount["vicePresident"]).map( function (key) {return voteCount["vicePresident"][key];});
+var vpmax = Math.max(...vpCounter)
+var secCounter = Object.keys(voteCount["secretary"]).map( function (key) {return voteCount["secretary"][key];});
+var secmax = Math.max(...secCounter)
+var tresCounter = Object.keys(voteCount["treasurer"]).map( function (key) {return voteCount["treasurer"][key];});
+var tresmax = Math.max(...tresCounter)
 
-// for(var key in voteCount["president"]) {
-//   if (voteCount["president"][key] == prezmax) {
-//     officers["president"] = key
-//   }
-// }
-// for(var key in voteCount["vicePresident"]) {
-//   if (voteCount["vicePresident"][key] == vpmax) {
-//     officers["vicePresident"] = key
-//   }
-// }
-// for(var key in voteCount["secretary"]) {
-//   if (voteCount["secretary"][key] == secmax) {
-//     officers["secretary"] = key
-//   }
-// }
-// for(var key in voteCount["treasurer"]) {
-//   if (voteCount["treasurer"][key] == tresmax) {
-//     officers["treasurer"] = key
-//   }
-// }
+for(var key in voteCount["president"]) {
+  if (voteCount["president"][key] == prezmax) {
+    officers["president"] = key
+  }
+}
+for(var key in voteCount["vicePresident"]) {
+  if (voteCount["vicePresident"][key] == vpmax) {
+    officers["vicePresident"] = key
+  }
+}
+for(var key in voteCount["secretary"]) {
+  if (voteCount["secretary"][key] == secmax) {
+    officers["secretary"] = key
+  }
+}
+for(var key in voteCount["treasurer"]) {
+  if (voteCount["treasurer"][key] == tresmax) {
+    officers["treasurer"] = key
+  }
+}
 
 
 
@@ -145,7 +145,6 @@ for(var name in votes) {
   console.log(person)
   for(var position in person) {
     var x = person[position];
-    console.log(x)
     if (voteCount[position][x] >= 1) {
       voteCount[position][x] += 1;
       officers[position] = x; }
@@ -154,15 +153,20 @@ for(var name in votes) {
     }
   }
 }
-console.log(voteCount)
-console.log(officers)
+
 
 
 // __________________________________________
 // Reflection
 
+// What did you learn about iterating over nested objects in JavaScript?
+// Its pretty straight forward, just need to use a for loop and you can use multiple for loops to reach inside to the nested data
 
+// Were you able to find useful methods to help you with this?
+// By doing two layers of for loops we were able to make our refactor a very short concise bit of code.  
 
+// What concepts were solidified in the process of working through this challenge?
+// For loops, some of the quirks using the Math function, reinforced why to use bracket or dot notation in calling values in objects.
 
 
 
