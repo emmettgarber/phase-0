@@ -1,4 +1,4 @@
-![outfitSchema](database-intro/outfitSchema.png)
+![outfitSchema](/outfitSchema.png)
 
 What are databases for?
 They allow one to store data in a table like structure with as many values as you need for each record
